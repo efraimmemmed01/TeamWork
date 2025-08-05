@@ -1,0 +1,416 @@
+/* Playfair Display  */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*? about-us-section start  */
+.about-us-section {
+    padding: 85px 152px 120px 152px;
+
+    .about-us-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10%;
+
+        .image-about {
+            width: 100%;
+            position: relative;
+
+            img {
+                border-radius: 12px;
+            }
+
+            .about-data {
+                position: absolute;
+                background-color: #474747;
+                width: 411px;
+                border-radius: 12px;
+                top: 54%;
+                left: 41%;
+                padding: 40px;
+
+                h3 {
+                    color: #FFFFFF;
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .contact-us {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+
+                    .item {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        img {
+                            width: 18px;
+                            height: 18px;
+                        }
+
+                        p {
+                            color: #F9F9F7;
+                            font-weight: 400;
+                            font-family: DM Sans;
+                            line-height: 24px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .content {
+            /* width: 100%; */
+            /* max-width: 557px; */
+
+            h2 {
+                line-height: 61px;
+                color: #2C2F24;
+                font-weight: 500;
+                font-size: 55px;
+                font-family: Playfair Display;
+                margin-bottom: 24px;
+            }
+
+            p {
+                font-family: DM Sans;
+                line-height: 28px;
+                color: #2C2F24;
+                font-weight: 500;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                font-family: DM Sans;
+                line-height: 24px;
+                color: #414536;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/*? about-us-section end  */
+
+/*? delivery-order-section start  */
+.delivery-order-section {
+    padding: 80px 160px;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 87px;
+
+        .item-wrap {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            width: 100%;
+            max-width: 366px;
+
+            .text {
+                p {
+                    font-weight: 700;
+                    font-family: DM Sans;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #2C2F24;
+                    margin-bottom: 10px;
+                }
+
+                span {
+                    color: #414536;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+/*? delivery-order-section end  */
+
+/*? statistics section start  */
+.statistics-section {
+    background-color: #F9F9F7;
+    padding: 130px 150px;
+    margin-bottom: 98px;
+
+    .statics-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 130px;
+
+        .content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 60px;
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h2 {
+                    font-family: Playfair Display;
+                    color: #2C2F24;
+                    line-height: 60px;
+                    font-size: 55px;
+                    font-weight: 500;
+                }
+
+                p {
+                    font-family: DM Sans;
+                    color: #414536;
+                    line-height: 24px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+
+            .count-statics {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                flex-wrap: wrap;
+
+                .count-item {
+                    border: 1px solid #DBDFD0;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 15px;
+                    padding: 30px;
+                    width: 100%;
+                    max-width: 255px;
+                    height: 174px;
+
+                    h2 {
+                        font-family: Playfair Display;
+                        color: #2C2F24;
+                        line-height: 60px;
+                        font-size: 50px;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-family: DM Sans;
+                        color: #414536;
+                        line-height: 28px;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        img {
+            /* width: 100%; */
+            border-radius: 12px;
+        }
+    }
+}
+
+/*? statistics section end  */
+
+/*? testinomial section start   */
+.testinomial-section {
+    padding: 95px 150px 135px 150px;
+
+    .title {
+        margin-bottom: 64px;
+
+        h2 {
+            font-family: Playfair Display;
+            font-weight: 500;
+            font-size: 55px;
+            line-height: 60px;
+            color: #2C2F24;
+            text-align: center;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-color: #F9F9F7;
+            border-radius: 12px;
+            padding: 45px 35px 35px 35px;
+
+            .user-comment {
+                border-bottom: 1px solid #DBDFD0;
+
+                h3 {
+                    color: #AD343E;
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    color: #414536;
+                    font-family: DM Sans;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 32px;
+
+                }
+            }
+
+            .user-info {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                padding-top: 32px;
+
+                p {
+                    color: #2C2F24;
+                    font-family: DM Sans;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                span {
+                    color: #414536;
+                    font-family: DM Sans;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+
+/*? testinomial section end   */
+
+
+/*! responsive design start  */
+@media(max-width:1200px) {
+    .about-us-section {
+        .about-us-wrapper {
+            flex-direction: column;
+
+            .about-data {
+                display: none;
+            }
+        }
+
+        .image-about img {
+            width: 100%;
+        }
+    }
+
+    .statistics-section {
+        padding: 20px !important;
+
+        .statics-wrapper {
+            flex-direction: column-reverse;
+            gap: 40px !important;
+
+            img {
+                width: 100% !important;
+            }
+
+            .info h2 {
+                line-height: 46px !important;
+                font-size: 40px !important;
+            }
+        }
+
+        .count-statics {
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width:992px) {
+    .delivery-order-section {
+        padding: 20px !important;
+
+        .wrapper {
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+    }
+
+    .testinomial-section {
+        padding: 20px !important;
+
+        .wrapper {
+            flex-wrap: wrap;
+
+            .card {
+                width: 48%;
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .about-us-section {
+        padding: 20px !important;
+
+        .about-us-wrapper {
+            h2 {
+                line-height: 45px !important;
+                font-size: 37px !important;
+            }
+
+            P {
+                line-height: 26px !important;
+                font-size: 17px !important;
+                margin-bottom: 10px !important;
+            }
+        }
+    }
+
+    .testinomial-section {
+        .title {
+            margin-bottom: 30px !important;
+
+            h2 {
+                font-size: 30px !important;
+            }
+        }
+
+        .card {
+            width: 100% !important;
+        }
+    }
+}
+
+/*! responsive design end  */
