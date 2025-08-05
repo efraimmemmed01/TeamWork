@@ -1,1 +1,2 @@
-Read.me
+Hər kəs öz brancində işləsin zəhmət olmasa😊
+
