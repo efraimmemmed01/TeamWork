@@ -20,22 +20,34 @@ header .navbar {
   padding-left: 60px;
 }
 
+.navbar .contact-info {
+  display: flex;
+  gap: 20px;
+}
+
 .navbar .contact-info span {
-  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .navbar i {
   margin-right: 5px;
 }
 
-.navbar .navbar-social-icons i {
-  margin-left: 15px;
-  cursor: pointer;
-  transition: color 0.3s;
+.navbar .navbar-social-icons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.navbar .navbar-social-icons i:hover {
-  color: #ccc;
+.navbar .navbar-social-icons .img-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  transition: all 0.3s ease;
 }
 
 header .mainnavbar {
@@ -64,7 +76,6 @@ header .mainnavbar {
   font-style: italic;
   color: #333;
 }
-
 
 .mainnavbar ul {
   list-style: none;
@@ -185,9 +196,7 @@ header .mainnavbar {
   color: #ccc;
 }
 
-/* footer end */
-
-/* Responsive dizayin start  */
+/* Responsive dizayn start */
 
 @media (max-width: 1024px) {
   html {
@@ -225,6 +234,11 @@ header .mainnavbar {
     width: 70px;
     height: 70px;
   }
+
+  .navbar .navbar-social-icons .img-icon img {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -232,7 +246,30 @@ header .mainnavbar {
     font-size: 14px;
   }
 
-  .navbar,
+  header .navbar {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .navbar .contact-info {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .navbar .navbar-social-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .navbar .navbar-social-icons .img-icon img {
+    width: 20px;
+    height: 20px;
+  }
+
   .mainnavbar {
     flex-direction: column;
     align-items: flex-start;
@@ -335,7 +372,9 @@ header .mainnavbar {
   .footer-bottom {
     font-size: 12px;
   }
+
+  .navbar .navbar-social-icons .img-icon img {
+    width: 18px;
+    height: 18px;
+  }
 }
-
-
-/* Responsiv dizayin end */
