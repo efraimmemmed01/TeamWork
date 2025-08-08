@@ -1,0 +1,156 @@
+/* body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+} */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  margin-bottom: 40px;
+}
+
+.hero-title {
+font-size: 3em;
+ margin-bottom: 20px;
+ color: #333;
+}
+
+.hero-subtitle {
+font-size: 1.1em;
+ color: #666;
+max-width: 600px; 
+
+          
+}
+.form-container {
+  max-width: 600px; 
+  width: 100%;
+  background-color: #fff; 
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  flex: none;
+  width: 100%;
+}
+
+label {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 1em;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+}
+
+input[type="date"] {
+ 
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+  padding-right: 45px;
+}
+
+select {
+  
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+  padding-right: 45px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #888;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #A93F4B;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #923540;
+}
+
+  
+
+  .form-container {
+      padding: 25px;
+      margin: 20px; 
+  }
+
+  .map{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    z-index: -5;
+    bottom: -280px;
+  }
+
+  iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }

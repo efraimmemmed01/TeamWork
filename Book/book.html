@@ -1,11 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book A Table Form</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="book.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Pasa</h1>
+    <!-- Header start -->
+    <header>
+        <div class="navbar">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> (414) 857 - 0107</span>
+                <span><i class="fas fa-envelope"></i> yummy@bistrobliss</span>
+            </div>
+            <div class="navbar-social-icons">
+                <span class="img-icon"><img src="../assets/images/about/1.png" alt=""></span>
+                <span class="img-icon"><img src="../assets/images/about/2.png" alt=""></span>
+                <span class="img-icon"><img src="../assets/images/about/3.png" alt=""></span>
+                <span class="img-icon"><img src="../assets/images/about/4.png" alt=""></span>
+            </div>
+        </div>
+
+        <div class="mainnavbar">
+            <div class="logo">
+                <img src="../assets/images/about/Vector.png" alt="Bistro Logo" />
+                <h1>Bistro Bliss</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="../About/About.html">About</a></li>
+                    <li><a href="Menu/Menu.html">Menu</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="Contact/Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="book-button">
+                <a href="#">Book A Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+            <h1 class="hero-title">Book A Table</h1>
+            <p class="hero-subtitle">We consider all the drivers of change gives you the components you need to change
+                to create a truly happens.</p>
+        </div>
+
+        </div>
+
+        <div class="form-container">
+            <form id="bookingForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" value="2025-07-07">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" name="time">
+                            <option value="06:30 PM">06:30 PM</option>
+                            <option value="07:00 PM">07:00 PM</option>
+                            <option value="07:30 PM">07:30 PM</option>
+                            <option value="08:00 PM">08:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+994XX-XXX-XX-XX">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group full-width">
+                        <label for="total-person">Total Person</label>
+                        <select id="total-person" name="totalPerson">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">Book A Table</button>
+            </form>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.7917732177274!2d49.85168121529215!3d40.37719497936816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d05a4d2d947%3A0x4b6d5f0e093b0f63!2sBaku%2C%20Azerbaijan!5e0!3m2!1sen!2sus!4v1691169633597!5m2!1sen!2sus"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Fotter start -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2 class="logo"><img src="../assets/images/about/Vector.png" alt=""> Bistro Bliss</h2>
+                <p>
+                    In the new era of technology we look in the future with certainty and pride to for our company
+                    and.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><img src="../assets/images/about/1.png" alt="Twitter"></a>
+                    <a href="#"><img src="../assets/images/about/2.png" alt="Facebook"></a>
+                    <a href="#"><img src="../assets/images/about/3.png" alt="Instagram"></a>
+                    <a href="#"><img src="../assets/images/about/4.png" alt="GitHub"></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./About/About.html">About</a></li>
+                    <li><a href="./Menu/Menu.html">Menu</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="./Blog/Blog.html">Blog</a></li>
+                    <li><a href="./Contact/Contact.html">Contact</a></li>
+                    <li><a href="#">Delivery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section links">
+                <h4>Utility Pages</h4>
+                <ul>
+                    <li><a href="#">Start Here</a></li>
+                    <li><a href="#">Styleguide</a></li>
+                    <li><a href="#">Password Protected</a></li>
+                    <li><a href="https://admiral.digital/wp-content/uploads/2023/08/404_page-not-found.png">404 Not
+                            Found</a></li>
+                    <li><a href="#">Licenses</a></li>
+                    <li><a href="#">Changelog</a></li>
+                    <li><a href="#">View More</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section instagram">
+                <h4>Follow Us On Instagram</h4>
+                <div class="food-images">
+                    <img src="../assets/images/about/Mask group (1).png" alt="Food 1">
+                    <img src="../assets/images/about/pexels-ella-olsson-1640772 1.png" alt="Food 2">
+                    <img src="../assets/images/about/pexels-ash-376464 1.png" alt="Food 3">
+                    <img src="../assets/images/about/Mask group.png" alt="Food 4">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Fotter end -->
 </body>
+
 </html>
