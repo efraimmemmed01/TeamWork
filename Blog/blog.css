@@ -1,5 +1,5 @@
 
-/* CSS dəyişənlər (rənglər, ölçülər və s.) */
+
 :root {
   --primary-bg: #f8f8f8;
   --card-bg: #fff;
@@ -12,7 +12,7 @@
   --max-width: 1200px;
 }
 
-/* Sıfırlama və əsas tənzimləmələr */
+
 * {
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ body {
   margin: 0 auto;
 }
 
-/* Blog konteyner və kart */
+
 .blog-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
