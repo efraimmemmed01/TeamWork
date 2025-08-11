@@ -108,6 +108,50 @@
 
 /*? about-us-section end  */
 
+/*? about-video-section start  */
+.about-video-section {
+    .video-wrapper {
+        background-image: url("../assets/images/about/about-bg.png");
+        background-size: cover;
+        background-position: center;
+        height: 690px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .player {
+            width: 106px;
+            height: 106px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+
+        .text {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+
+            h2 {
+                color: #fff;
+                font-family: Playfair Display;
+                font-weight: 500;
+                font-size: 55px;
+                line-height: 60.5px;
+            }
+        }
+
+
+    }
+}
+
+/*? about-video-section end  */
+
 /*? delivery-order-section start  */
 .delivery-order-section {
     padding: 80px 160px;
@@ -409,6 +453,18 @@
 
         .card {
             width: 100% !important;
+        }
+    }
+
+    .about-video-section {
+        .player {
+            width: 70px !important;
+            height: 70px !important;
+        }
+
+        .text h2 {
+            font-size: 35px !important;
+            line-height: 45px !important;
         }
     }
 }
