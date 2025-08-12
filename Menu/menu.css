@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.basliq {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.basliqChild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.basliqH1 {
+  font-size: 70px;
+  font-family: "Playfair Display";
+}
+.basliqP {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 15px;
+}
+.basliqKatagori {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.basliqBTN {
+  background: none;
+  width: 85px;
+  border: solid 1px grey;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.basliqBTN:hover {
+  background-color: #ad343e;
+  color: white;
+}
+.basliqBTN:focus {
+  background-color: #ad343e;
+  color: white;
+}
+/* cart */
+.container2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cartContainer {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 1px 1px 2px 0px;
+  width: 270px;
+  height: 370px;
+  transition: 0.3s ease;
+}
+.cartContainer:hover {
+  transform: translateY(-2px);
+}
+.cardImg {
+  width: 270px;
+}
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.cardPrice {
+  color: #ad343e;
+  font-family: "DM Sans";
+}
+.cardName {
+  font-family: "DM Sans";
+}
+.cardDiscription {
+  width: 80%;
+  text-align: center;
+  font-family: "DM Sans";
+}
+
+/* ikinci */
+
+.partnerContainer {
+  background-color: #eeeeec;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.partnerchild {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.partnerText {
+  width:270px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.partnerH1 {
+  font-size: 30px;
+
+}
+
+.partnerLogos {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.partnerLogo1 {
+  gap: 40px;
+
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.partnerLogo2 {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.partnerLogo3 {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partnerLogoImg2 {
+    cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 70px;
+   transition:all .2s ;
+}
+.partnerLogoImg2:hover{
+    scale: 1.05;
+   
+}
+.partnerLogoImg1:hover{
+    scale: 1.05;
+   
+}
+
+.partnerLogoImg1 {
+    cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  border: none;
+  height: 70px;
+    transition:all .2s ;
+  width: 120px;
+}
+#partnerimg{
+  width: 80px;
+}
