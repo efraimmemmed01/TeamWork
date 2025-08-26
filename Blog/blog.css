@@ -6,7 +6,6 @@
 
 
 
-/* CSS dəyişənlər (rənglər, ölçülər və s.) */
 :root {
   --primary-bg: #f8f8f8;
   --card-bg: #fff;
@@ -18,19 +17,6 @@
   --card-gap: 1.5rem;
   --max-width: 1200px;
 }
-
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--font-main);
-  background-color: var(--primary-bg);
-  color: var(--text-color);
-}  */
-
 
 * {
   margin: 0;
@@ -208,12 +194,14 @@ header .mainnavbar {
 .footer-section ul li a:hover {
   color: #ffcc00;
 }
-.footer-section-instagram{
+
+.footer-section-instagram {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
 }
+
 .food-images {
   display: grid;
   grid-template-columns: repeat(2, 80px);
@@ -431,7 +419,7 @@ header .mainnavbar {
 .header h1 {
   font-size: 5rem;
   margin-bottom: 1rem;
-  font-family:  Playfair Display;
+  font-family: Playfair Display;
   font-weight: 450;
 }
 
@@ -472,7 +460,7 @@ header .mainnavbar {
 }
 
 .card-content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .card-content .date {
@@ -485,6 +473,16 @@ header .mainnavbar {
 .card-content h3 {
   font-size: 1.1rem;
   font-weight: 600;
+}
+.blog_detail_btn{
+  padding: .3rem;
+  margin-bottom: 2rem;
+}
+.blog_detail_btn a {
+  text-decoration: none;
+
+  color: black;
+  
 }
 
 /* Responsiv dizayn */
@@ -523,4 +521,3 @@ header .mainnavbar {
     font-size: 0.95rem;
   }
 }
-
